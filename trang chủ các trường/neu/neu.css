@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 120%;
+}
+
+.navbar i{
+    color: turquoise;
+    font-size: 300%;
+}
+.fixed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100% ;
+    padding: 10px;
+    border-bottom: 2px solid cyan;
+    background-color: black;
+}
+#mainpage{
+    position: relative;
+    left: -5%;
+    color: white;
+}
+.help{
+    color: tomato;
+    border: thistle solid 2px;
+    border-radius: 20px;
+    padding: 12px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.welcome{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://media-cdn.laodong.vn/storage/newsportal/2019/8/8/748572/Dai-Hoc-Bach-Khoa-Ha.jpg);
+    color: white;
+    background-size: contain;
+}
+.truong{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.detail{
+    width: 40%;
+    height: 15vh;
+}
+.detail+.detail{
+    margin-bottom: 5vh;
+}
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-up{
+    display: flex;
+    justify-content: space-evenly;
+}

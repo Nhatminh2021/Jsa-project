@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --w: white;
+}
+.opening{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://www.omnifood.net/resources/CSS/img/hero-min.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 120%;
+}
+
+.navbar i{
+    color: turquoise;
+    font-size: 300%;
+}
+.fixed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100% ;
+    padding: 10px;
+    border-bottom: 2px solid cyan;
+    background-color: black;
+}
+.help{
+    color: tomato;
+    border: thistle solid 2px;
+    border-radius: 20px;
+    padding: 12px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.sidenav{
+    position: fixed;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    padding: 20px;
+    top: 80vh;
+    right: 10px;
+}
+
+.nav2{
+    color: var(--w);
+    padding-top: 20vh;
+    display: flex;
+}
+
+.nav2-left{
+    width: 40%;
+    height: 80vh;
+}
+
+.nav-con{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav-con-signin{
+    padding: 20px;
+}
+
+.nav2-right{
+    width: 60%;
+}
+.logo-coop img{
+    width: 60px;
+    height: auto;
+    border: 1px solid rgb(90, 75, 75);
+    border-radius: 50%;
+}
+.logo-coop:hover img{
+    filter: brightness(0.3);
+    transition: 0.4s;
+}
+#trg-1{
+    position: relative;
+    left: 25%;
+}
+#trg-2{
+    position: relative;
+    left: 10%;
+}
+#trg-3{
+    position: relative;
+    left: -5%;
+}
+#trg-n{
+    position: relative;
+    left: -15%;
+}
+
+.school{
+    width: 100%;
+    height: 6   0vh;
+}
+.gioithieu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.school-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+.truong{
+    display: flex;
+    padding-right: 50px;
+    margin-bottom: 15px;
+}
+.school-logo img{
+    width: 150px;
+    height: auto;
+    padding-right: 20px;
+}
+.page-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 750px;
+    background-color: black;
+    height: 50px;
+    width: 30%;
+}
+.page-num a{
+    color: var(--w);
+    background-color: rgb(32, 27, 27);
+    padding: 7px 14px;
+    margin: 2px;
+}
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(32, 27, 27);
+    color: var(--w);
+}
+.footer-up{
+    display: flex;
+    justify-content: space-evenly;
+}
